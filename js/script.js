@@ -179,10 +179,10 @@ $(document).ready(function () {
     $(".formone").submit(function (event) {
         event.preventDefault();
 
-        $(".each").slideDown()
-        $(".wait").slideUp()
-        $(".wait2").slideUp()
-        $(".wait3").slideUp()
+        $(".each").slideDown();
+        $(".wait").slideUp();
+        $(".wait2").slideUp();
+        $(".wait3").slideUp();
 
         const inputtedFirstName = $(".firstname").val();
         const inputtedLastName = $(".lastname").val();
