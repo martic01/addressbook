@@ -134,12 +134,12 @@ function attachContactListeners() {
       });
     
       $(".new").on("click", ".update", function () {
-        $(".new").fadeOut()
-        $(".detail").slideUp()
-        $(".add").fadeIn()
-        $(".wait").slideUp()
-        $(".wait2").slideUp()
-        $(".wait3").slideUp()
+        $(".new").fadeOut();
+        $(".detail").slideUp();
+        $(".add").fadeIn();
+        $(".wait").slideUp();
+        $(".wait2").slideUp();
+        $(".wait3").slideUp();
 
         $(".firstname").val("");
         $(".lastname").val("");
