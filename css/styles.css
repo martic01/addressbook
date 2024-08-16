@@ -240,6 +240,7 @@ div::-webkit-scrollbar-thumb:hover {
     align-items: center;
     border: 1px solid rgb(214, 22, 99);
     border-bottom: 1.5px solid rgb(17, 12, 14);
+    overflow: hidden;
 
 }
 .ineach p {
@@ -249,7 +250,7 @@ div::-webkit-scrollbar-thumb:hover {
     display: flex;
     align-items: center;
     border-bottom: 2px solid rgb(17, 12, 14);
-
+overflow: hidden;
 }
 
 

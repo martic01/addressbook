@@ -91,6 +91,8 @@ function showContact(contactId) {
 function attachContactListeners() {
     $(".each").on("click", "p", function () {
         showContact(this.id);
+        $(".new").fadeOut();
+        $(".add").fadeIn();
         $(".detail").slideToggle()
     });
 
@@ -100,6 +102,8 @@ function attachContactListeners() {
         displayContactDetails(addressBook);
         $(".detail").empty(); 
         $(".detail").slideUp()
+        $(".new").fadeOut();
+        $(".add").fadeIn();
     });
   
       $(".detail").on("click", ".copy", function () {
