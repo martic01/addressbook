@@ -141,14 +141,15 @@ function attachContactListeners() {
         $(".wait2").slideUp();
         $(".wait3").slideUp();
 
+        addressBook.editContact(this.id);
+        displayContactDetails(addressBook);
+
         $(".firstname").val("");
         $(".lastname").val("");
         $(".phonenumber").val("");
         $(".emailaddress").val("");
         $(".homeaddress").val("");
 
-        addressBook.editContact(this.id);
-        displayContactDetails(addressBook);
       });
       $(".name").click(function(){
         $(".wait").slideToggle()
